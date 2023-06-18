@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.bello.9" version="9.0.0" name="BlackcombUI" provider-name="Chancedashie">
+  <requires>
+		<import addon="xbmc.gui" version="5.16.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" effectslowdown="0.75" debugging="false">
+    <res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
+    <res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
+    <res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
+    <res width="2040" height="1080" aspect="17:9" default="false" folder="xml" />
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+    <res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
+    <res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
+    <res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
+	</extension>
+     <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+      </assets>
+    <description lang="en_GB">Hello World script provides some basic examples on how to create your first script and hopefully will increase the number of Kodi users to start creating their own addons.</description>
+      </extension>
+</addon>
